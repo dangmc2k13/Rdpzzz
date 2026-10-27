@@ -5,46 +5,46 @@
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
-    "disk_free_gb": 80.4,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 77.5,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-26T12:57:29Z",
-  "expires_at": "2026-10-26T18:39:29Z",
+  "started_at": "2026-10-27T12:41:56Z",
+  "expires_at": "2026-10-27T18:23:56Z",
   "duration_menit": 342,
   "run_id": "40326445303",
-  "run_attempt": "1",
+  "run_attempt": "2",
   "run_number": "13",
   "run_url": "https://github.com/dangmc2k13/Rdpzzz/actions/runs/40326445303",
   "mode": "bersih+win10",
   "persist": {
-    "source": "xyrdp-state.7z.enc",
     "profile": "C:\\Users\\xyadmin",
+    "source": "xyrdp-state.7z.enc",
     "restored": true,
-    "files": 326
+    "files": 337
   },
   "storage": {
     "boost": "ok",
-    "before_gb": 80.14,
-    "after_gb": 104.36,
+    "before_gb": 77.26,
+    "after_gb": 101.48,
     "gained_gb": 24.22,
     "removed_targets": 19,
     "drives": [
       {
-        "used_gb": 151.09,
-        "size_gb": 255.45,
+        "used_gb": 153.97,
         "letter": "C",
-        "free_gb": 104.36
+        "free_gb": 101.48,
+        "size_gb": 255.45
       },
       {
-        "used_gb": 3.0,
-        "size_gb": 150.0,
+        "used_gb": 0.13,
         "letter": "D",
-        "free_gb": 147.0
+        "free_gb": 219.85,
+        "size_gb": 219.98
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
@@ -60,39 +60,39 @@
   },
   "grafis": {
     "adapters": "Microsoft Hyper-V Video",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64",
     "mode": "software",
     "vulkan": "lavapipe 1.3 (CPU)",
     "mesa": "26.2.4",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)"
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "path": "C:\\XyRDP\\grafis\\mesa-x64"
   },
   "games": {
-    "blender": {
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
-      "status": "ready"
-    },
-    "fivem": {
-      "sound": true,
-      "status": true
-    },
     "roblox": {
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
-      "status": "ready-antivm"
-    },
-    "minecraft_java": {
-      "status": "ready",
-      "prismlauncher": true,
-      "tlauncher_jar": true,
-      "opengl46": true,
-      "official_exe": true
+      "status": "ready-antivm",
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
     },
     "ets2": {
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
-      "status": "ready"
+      "status": "ready",
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
+    },
+    "fivem": {
+      "status": true,
+      "sound": true
     },
     "memu": {
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
+      "status": "ready",
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+    },
+    "minecraft_java": {
+      "official_exe": true,
+      "prismlauncher": true,
+      "opengl46": true,
+      "tlauncher_jar": true,
       "status": "ready"
+    },
+    "blender": {
+      "status": "ready",
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
     }
   },
   "extras": {
@@ -105,8 +105,8 @@
   },
   "tools_hub": {
     "installed": true,
-    "auto_start": true,
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe"
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
+    "auto_start": true
   },
   "xydesk": {
     "host": "ok",
@@ -128,19 +128,19 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "magicdns": "bagas-13.taildd40c2.ts.net.",
-      "ip": "100.81.137.63",
-      "hostname": "Bagas-13"
+      "hostname": "Bagas-13",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "status": "ok",
+      "ip": "100.79.94.60"
     },
     "tunnel": {
-      "host": "100.81.137.63",
-      "outside": "tailscale",
-      "address": "100.81.137.63:3389",
-      "status": "ok",
+      "selftest": "ok",
       "port": 3389,
-      "selftest": "ok"
+      "address": "100.79.94.60:3389",
+      "status": "ok",
+      "host": "100.79.94.60",
+      "outside": "tailscale"
     }
   }
 }
