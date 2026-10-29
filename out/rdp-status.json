@@ -1,50 +1,50 @@
 {
   "active": true,
-  "hostname": "pcfree-17",
+  "hostname": "pcfree-18",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
-    "disk_free_gb": 80.0,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 80.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-28T21:48:47Z",
-  "expires_at": "2026-10-29T03:30:47Z",
+  "started_at": "2026-10-29T03:37:08Z",
+  "expires_at": "2026-10-29T09:19:08Z",
   "duration_menit": 342,
-  "run_id": "40774892417",
+  "run_id": "40813019913",
   "run_attempt": "1",
-  "run_number": "17",
-  "run_url": "https://github.com/dangmc2k13/Rdpzzz/actions/runs/40774892417",
+  "run_number": "18",
+  "run_url": "https://github.com/dangmc2k13/Rdpzzz/actions/runs/40813019913",
   "mode": "bersih+win10",
   "persist": {
     "source": "xyrdp-state.7z.enc",
     "files": 763,
-    "profile": "C:\\Users\\xyadmin",
-    "restored": true
+    "restored": true,
+    "profile": "C:\\Users\\xyadmin"
   },
   "storage": {
     "boost": "ok",
     "before_gb": 79.59,
-    "after_gb": 103.87,
-    "gained_gb": 24.28,
+    "after_gb": 103.82,
+    "gained_gb": 24.23,
     "removed_targets": 20,
     "drives": [
       {
-        "used_gb": 151.58,
-        "free_gb": 103.87,
+        "size_gb": 255.45,
         "letter": "C",
-        "size_gb": 255.45
+        "free_gb": 103.82,
+        "used_gb": 151.63
       },
       {
-        "used_gb": 3.0,
-        "free_gb": 146.99,
+        "size_gb": 150.0,
         "letter": "D",
-        "size_gb": 150.0
+        "free_gb": 146.99,
+        "used_gb": 3.0
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
@@ -61,21 +61,36 @@
   "media": {
     "audio_output": "rdp_playback_enabled",
     "microphone": "rdp_capture_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "wallpaper": "xyverse_configured_for_user_logon"
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
   },
   "grafis": {
+    "vulkan": "lavapipe 1.3 (CPU)",
     "mesa": "26.2.4",
     "adapters": "Microsoft Hyper-V Video",
-    "mode": "software",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
     "path": "C:\\XyRDP\\grafis\\mesa-x64",
-    "vulkan": "lavapipe 1.3 (CPU)"
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "mode": "software"
   },
   "games": {
     "blender": {
       "status": "ready",
       "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
+    },
+    "memu": {
+      "status": "ready",
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+    },
+    "minecraft_java": {
+      "tlauncher_jar": true,
+      "prismlauncher": true,
+      "opengl46": true,
+      "official_exe": true,
+      "status": "ready"
+    },
+    "roblox": {
+      "status": "ready-antivm",
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
     },
     "ets2": {
       "status": "ready",
@@ -84,21 +99,6 @@
     "fivem": {
       "status": true,
       "sound": true
-    },
-    "minecraft_java": {
-      "tlauncher_jar": true,
-      "prismlauncher": true,
-      "official_exe": true,
-      "opengl46": true,
-      "status": "ready"
-    },
-    "roblox": {
-      "status": "ready-antivm",
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
-    },
-    "memu": {
-      "status": "ready",
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
     }
   },
   "extras": {
@@ -110,9 +110,9 @@
     "admin": true
   },
   "tools_hub": {
-    "installed": true,
+    "auto_start": true,
     "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
-    "auto_start": true
+    "installed": true
   },
   "xydesk": {
     "host": "ok",
@@ -133,19 +133,19 @@
   },
   "akses": {
     "tunnel": {
-      "status": "ok",
       "outside": "tailscale",
-      "host": "100.100.171.115",
-      "selftest": "ok",
       "port": 3389,
-      "address": "100.100.171.115:3389"
+      "status": "ok",
+      "host": "100.127.210.80",
+      "address": "100.127.210.80:3389",
+      "selftest": "ok"
     },
     "tailscale": {
+      "magicdns": "pcfree-18.taildd40c2.ts.net.",
+      "ip": "100.127.210.80",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "PCFREE-17",
-      "status": "ok",
-      "magicdns": "pcfree-17.taildd40c2.ts.net.",
-      "ip": "100.100.171.115"
+      "hostname": "PCFREE-18",
+      "status": "ok"
     },
     "mode": "tailscale"
   }
